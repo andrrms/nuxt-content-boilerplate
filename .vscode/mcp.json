@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "nuxt": {
+      "url": "https://nuxt.com/mcp",
+      "type": "http"
+    },
+    "io.github.ChromeDevTools/chrome-devtools-mcp": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp"],
+      "env": {},
+      "type": "stdio"
+    }
+  }
+}
